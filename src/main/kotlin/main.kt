@@ -38,5 +38,7 @@ fun main() {
     tab1.forEach { println("element: ${it}") }
     println(tab1.map { it * it })
 
+    tab.filter { it % 2 == 0 }.map { it * it }
+
 
 }
